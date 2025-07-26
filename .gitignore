@@ -1,0 +1,60 @@
+# IDE & Editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Python Compiled & Binary
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Generated Diagrams (output dari students)
+# Uncomment jika tidak mau track hasil generate:
+# *.png
+# *.svg
+
+# Graphviz intermediate files
+*.gv
+*.dot
+*.xdot
+
+# Node modules
+node_modules/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+main.py
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Backup
+*.bak
+*~
+
+# Documentation build
+docs/_build/
+website/build/
+website/package-lock.json
+
+# Keep resources/ - contains essential icons for diagrams library
+# resources/ should be tracked!
